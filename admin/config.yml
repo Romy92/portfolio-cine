@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: REMPLACER_PAR_VOTRE_COMPTE/portfolio-cine
+  branch: main
+  base_url: REMPLACER_PAR_VOTRE_URL_OAUTH
+  auth_endpoint: auth
+media_folder: "assets"
+public_folder: "assets"
+collections:
+  - name: "contenu"
+    label: "Films"
+    files:
+      - name: "films"
+        label: "Mes critiques"
+        file: "data/films.json"
+        fields:
+          - label: "Films"
+            name: "films"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Catégorie", name: "category", widget: "string"}
+              - {label: "Année", name: "year", widget: "string"}
+              - {label: "Note sur 5", name: "rating", widget: "number", value_type: "float", min: 0, max: 5, step: 0.5}
+              - {label: "Critique", name: "review", widget: "text"}
+              - {label: "Affiche", name: "image", widget: "image"}
+              - {label: "Couleur du titre et des étoiles", name: "color", widget: "color"}

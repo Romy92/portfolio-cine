@@ -1,0 +1,13 @@
+{
+  "films": [
+    {
+      "title": "OBSESSION",
+      "category": "Portfolio",
+      "year": "2026",
+      "rating": 4,
+      "review": "ceci est une critique de film",
+      "image": "assets/obsession.jpg",
+      "color": "#b51f2d"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Configuration Cloudflare Pages.
+# Le tableau de bord Cloudflare peut aussi être utilisé sans commande de build.
+name = "portfolio-critiques-cine"
+pages_build_output_dir = "."
+compatibility_date = "2026-09-08"

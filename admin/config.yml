@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: REMPLACER_PAR_VOTRE_COMPTE/portfolio-cine
+  repo: Romy92/portfolio-cine
   branch: main
   base_url: REMPLACER_PAR_VOTRE_URL_OAUTH
   auth_endpoint: auth

@@ -10,7 +10,12 @@
 @media(max-width:1280px){.review-panel{transform:none}}@media(max-width:760px){.movie-card:not(.selected){width:130px}}
 .movie-card:not(.selected){bottom:115px}.review-panel{min-height:337px;height:337px;transform:translate(34px,86px)}
 @media(max-width:1280px){.movie-card:not(.selected){bottom:95px}.review-panel{height:auto;transform:none}}@media(max-width:760px){.movie-card:not(.selected){bottom:75px}}
-.review-panel{position:relative}.rating{position:absolute;left:0;bottom:calc(100% + 14px);color:#f2cba9;font-size:1rem;letter-spacing:.05em}.active-heading span{display:none}
+.review-panel{position:relative}.review-panel {
+  min-height: 500px;
+  height: 500px;
+}.review-panel #panel-review {
+  text-align: justify;
+}.rating{position:absolute;left:0;bottom:calc(100% + 14px);color:#f2cba9;font-size:1rem;letter-spacing:.05em}.active-heading span{display:none}
 .movie-card.obsession{--accent:#b51f2d;width:360px;aspect-ratio:4/3;background:#251028 url('assets/obsession.jpg') center/cover no-repeat}.movie-card.obsession .poster-title{left:8%;bottom:10%;font:600 clamp(2rem,3.5vw,3.6rem)/.88 "DM Sans";letter-spacing:.02em;color:#b51f2d;text-shadow:0 1px 14px rgba(0,0,0,.65)}.movie-card.obsession.selected{transform:translateX(-50%) translateY(-10px) rotate(0) scale(1);margin:0}.movie-card.obsession .active-heading{color:#b51f2d;left:0;bottom:calc(100% + 16px);width:100%}.movie-card.obsession .active-heading strong{font-family:"DM Sans";font-size:1.55rem;letter-spacing:.06em}.review-panel .rating{color:#b51f2d}@media(max-width:760px){.movie-card.obsession{width:min(82vw,360px)}}
 .movie-card.obsession .poster-title{display:none}
 .movie-card.obsession.selected{left:100%;transform:translateX(-100%) translateY(-10px) rotate(0) scale(1)}
